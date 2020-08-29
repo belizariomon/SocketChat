@@ -24,8 +24,10 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(2, 4, 3),
   },
 }));
+// const socket = io("localhost:8080"); local
+// const socket = io(); international
 
-const socket = io("http://127.0.0.1");
+const socket = io();
 
 const App = () => {
   const [usuario, setUsuario] = useState("");
