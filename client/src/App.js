@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const socket = io("localhost:8080");
+const socket = io("localhost");
 
 const App = () => {
   const [usuario, setUsuario] = useState("");
